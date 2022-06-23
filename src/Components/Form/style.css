@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito:wght@200;400;500;600;700;800;900&display=swap');
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.btnSubmit {
+  width: 250px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 10px;
+  background: #FD377E;
+  border: 1.4px solid #FD377E;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-family: 'Nunito';
+  font-weight: 600;
+  margin: 25px auto;
+}
+
+.btnSubmit:hover {
+  background-color: #e62068;
+  border-color: #FF69B4;
+  font-weight: bold;
+}
+
+.divForm {
+  width: 300px;
+  height: 330px;
+  border: 1px solid #E9ECEF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #FFFFFF;
+  margin-top: 50px;
+}
+
+.divSearch {
+  display: flex;
+}
+
+.divDescription {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.description {
+  width: 140px;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #212529;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.divValue {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputValue, #select {
+  width: 110px; 
+  height: 33px;
+  border-radius: 8px;
+  background: #F8F9FA;
+  border: none;
+  color: #868E96;
+  font-family: 'Inter';
+  font-weight: 500px;
+  font-size: 16px;
+  text-align: end;
+  padding-left: 10px;
+}
+
+#select {
+  text-align: left;
+}
+
+.inputDescription {
+  height: 30px;
+  border-radius: 8px;
+  padding: 5px 16px;
+  margin: 10px 0px;
+  background: #F8F9FA;
+  border: none;
+  color: #868E96;
+  font-family: 'Inter';
+  font-weight: 500px;
+  font-size: 16px;
+}
+
+span {
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #868E96;
+}
+
+.form {
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 20px;
+}
+
+.divTotal {
+  width: 295px;
+  background: #FD377E;
+  border: 2px solid #FD377E;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 15px 0px;
+  border-radius: 8px;
+}
+
+.total {
+  margin: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 17px;
+}

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito:wght@200;400;500;600;700;800;900&display=swap');
+
+.btnAll {
+  width: fit-content;
+  height: 40px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  background: #E9ECEF;
+  border: 1.4px solid #E9ECEF;
+  /* margin: 5px; */
+  margin-top: 35px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #868E96;
+  font-family: 'Nunito';
+  font-weight: 600;
+}
+
+.btnClicked {
+  width: fit-content;
+  height: 40px;
+  border-radius: 8px;
+  padding: 10px 15px;
+   /* margin: 5px; */
+  margin-top: 35px;
+  margin-left: 15px;
+  background: #FD377E;
+  border: 1.4px solid #FD377E;
+  /* margin: 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F8F9FA;
+  font-family: 'Nunito';
+  font-weight: 600;
+}
+
+.btnAll:hover {
+  background-color: #FD377E;
+  color: #F8F9FA;
+}
+
+.btnIncomes {
+  width: 87px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1.4px solid #E9ECEF;
+  background: #E9ECEF;
+  color: #868E96;
+  font-family: 'Nunito';
+  font-weight: 600;
+  margin: 10px;
+}
+
+.btnExpenses {
+  width: 92px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1.4px solid #E9ECEF;
+  background: #E9ECEF;
+  color: #868E96;
+  font-family: 'Nunito';
+  font-weight: 600;
+  margin: 10px;
+}
+
+h2 {
+  /* width: 100%; */
+  height: 30px;
+  font-family: 'Nunito';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.titleList {
+  height: 34px;
+  font-family: 'Nunito';
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #868E96;
+  font-size: 22px;
+}
+
+.divBtns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 450px;
+}
+
+li {
+  width: 300px;
+  height: 87px;
+  border-radius: 4px;
+  list-style: none;
+  text-align: left;
+  background: #F8F9FA;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding: 0px;
+  margin-top: 30px;
+  margin: 30px auto;
+  width: 310px;
+}
+
+.divCard {
+  height: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+.container {
+  padding: 0px 0px 20px 20px;
+}
+
+.value {
+  padding: 12px;
+}
+
+.trash {
+  margin: 8px;
+}
+
+#trash {
+  background-color: #E9ECEF;
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+}
+
+#trash:hover {
+  background-color: #a8aaac;
+}
+
+#trash:hover > .trash {
+  filter: brightness(1.8);
+}
+
+.hrGreen {
+  position: absolute;
+  height: 85px;
+  margin: 0;
+  background-color: #32CD32;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.hrRed {
+  position: absolute;
+  height: 85px;
+  margin: 0;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+
+h4 {
+  margin: 10px;
+  font-family: 'Nunito';
+  font-weight: bold;
+  font-size: 16px;
+  color: #212529;
+  width: 150px;
+}
+
+/* .divList {
+  width: 500px;
+} */
+
+.skeleton {
+  width: 500px;
+}
+
+@media screen and (max-width: 900px) {
+
+  .divBtns {
+    flex-wrap: wrap;
+    margin: 30px auto;
+    justify-content: center;
+    width: 350px;
+  }
+
+  .btnSubmit {
+    width: 250px;
+  }
+
+  .inputValue {
+    margin-right: 5px;
+  }
+
+  #select {
+    margin-left: 5px;
+    width: 120px;
+  }
+
+  h2 {
+    padding: 0px 15px; 
+  }
+
+  .titleList {
+    height: fit-content;
+    text-align: center;
+  }
+
+  .skeleton {
+    margin: auto;
+  }
+
+  .divTotal {
+    width: 290px;
+    margin: 20px auto;
+  }
+
+  ul {
+    margin: 20px auto;
+  }
+
+  .skeleton, .titleList {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  h4 {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  ul, li {
+    width: 500px;
+  }
+}
